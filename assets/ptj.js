@@ -62,6 +62,8 @@ tabs.forEach(tab =>{
 })      
 */
 
+
+
 /*======================= Services Modal ===================*/
 const modalViews = document.querySelectorAll(".services__modal"),
   modalBtns = document.querySelectorAll(".services__button"),
@@ -86,9 +88,10 @@ modalCloses.forEach((modalClose) => {
 });
 
 /*======================= Portfolio Swiper ===================*/
+
 var swiper = new Swiper(".portfolio__container", {
   cssMode: true,
-  loop: true,
+  // loop: true,
 
   navigation: {
     nextEl: ".swiper-button-next",
